@@ -1,12 +1,33 @@
-.Cards{
-    margin-top: 60px;
+.card_down{
+    position: absolute;
+    left: -27px;
+}
+.Card_first{
+    margin-top: 55px;
 }
 .card_img{
-    width: 50%;
+    margin-top: 40px;
+    width: 300px;
+    height: 200px;
 }
 .card-text{
     font-size: 1.5em;
 }
 .card-title{
     font-size: 1.5em;
+}
+.card-body{
+    background-color: #C0C0C0;
+    border: 2px solid black;
+}
+.card-content{
+    display: flex;
+    justify-content: space-between;
+}
+.card-text{
+    margin-left: 20px;
+}
+.row_down{
+    position: relative;
+    top: -2px;
 }
